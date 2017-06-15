@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/nikjohn/.nvm/versions/node/v6.9.4/bin/node /Users/nikjohn/.nvm/versions/node/v6.9.4/bin/yarn
+
+PATH: 
+  /Users/nikjohn/.nvm/versions/node/v6.9.4/bin:/Users/nikjohn/.yarn/bin:/usr/local/opt/elasticsearch@2.4/bin:/Users/nikjohn/.rvm/gems/ruby-2.3.1/bin:/Users/nikjohn/.rvm/gems/ruby-2.3.1@global/bin:/Users/nikjohn/.rvm/rubies/ruby-2.3.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/nikjohn/.rvm/bin
+
+Yarn version: 
+  0.24.5
+
+Node version: 
+  6.9.4
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "myapp",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./bin/www"
+    },
+    "dependencies": {
+      "body-parser": "~1.17.1",
+      "cookie-parser": "~1.4.3",
+      "debug": "~2.6.3",
+      "express": "~4.15.2",
+      "jade": "~1.11.0",
+      "morgan": "~1.8.1",
+      "serve-favicon": "~2.4.2",
+      "underscore": "^1.8.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz: ENOENT: no such file or directory, utime '/Users/nikjohn/Library/Caches/Yarn/v1/npm-iconv-lite-0.4.15-fe265a218ac6a57cfe854927e9d04c19825eddeb/encodings/tables/cp936.json'
+      at Error (native)
